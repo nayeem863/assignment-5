@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             
             if (assignedTaskCount === 0) {
+               
                 alert("All tasks are completed!");
             }
             const select = button.closest('.max-w-80').querySelector('h2').innerText
